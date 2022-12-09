@@ -35,6 +35,6 @@ function multiply(a, b){a * b}
 * **Astrakhan State University:** Bachelor of Economics
 ---
 ## Languages
-English A2
+English A1 - A2 
 
 ---
