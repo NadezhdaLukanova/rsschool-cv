@@ -1,32 +1,38 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html class="page" lang="ru">
 <head>
   <meta charset="UTF-8">
   <title>CV</title>
   <link href="normalize.css" rel="stylesheet">
   <link href="style.css" rel="stylesheet">
   <link rel="icon" href="favicon.ico"> 
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
   </head>
 <body class="page-body">
   <header class="header">
     <nav class="navigation">
+      <div class="container">
       <ul class="navigator-list">
-        <li class="navigator-item"><a href="#contacts">Contacts</a></li>
-        <li class="navigator-item"><a href="#summary">About Me</a></li>
-        <li class="navigator-item"><a href="#skills">Skills</a></li>
-        <li class="navigator-item"><a href="#code">Code examples</a></li>
-        <li class="navigator-item"><a href="#projects">Experience</a></li>
-        <li class="navigator-item"><a href="#education">Education</a></li>
-        <li class="navigator-item"><a href="#english">Languages</a></li>
+        <li class="navigator-item"><a href="#contacts" class="navigator-link">Contacts</a></li>
+        <li class="navigator-item"><a href="#summary" class="navigator-link">About Me</a></li>
+        <li class="navigator-item"><a href="#skills" class="navigator-link">Skills</a></li>
+        <li class="navigator-item"><a href="#code" class="navigator-link">Code examples</a></li>
+        <li class="navigator-item"><a href="#projects" class="navigator-link">Experience</a></li>
+        <li class="navigator-item"><a href="#education" class="navigator-link">Education</a></li>
+        <li class="navigator-item"><a href="#english" class="navigator-link">Languages</a></li>
       </ul>
+    </div>
     </nav>
   </header>
-  <h1></h1>
-  <main class="container">
-    <section>
-      <img src="assets\avatar.jpg" width="200" height="200" alt="avatar">
+  <main class="container main-container">
+    <section class="section-profile section">
+      <img class="avatar" src="assets/avatar.jpg" width="300" height="300" alt="avatar">
+      <div>
+        <h1>Lukanova Nadezhda</h1>
+        <p>JUNIOR FRONT-END DEVELOPER</p>
+      </div>
     </section>
-    <section id="contacts">
+    <section class="section-contacts section" id="contacts">
       <h2>Contacts</h2>
       <ul>
         <li><b>GitHub: </b><a href="https://github.com/NadezhdaLukanova">NadezhdaLukanova</a></li>
@@ -36,7 +42,7 @@
         <li><b>Tel: </b><a href="tel:+79171890616">89171890616</a></li>
       </ul>
     </section>
-    <section id="summary">
+    <section class="section-summary section" id="summary">
       <h2>About Me</h2>
       <div>
       <p>
@@ -53,7 +59,7 @@
       </p>
       </div>
     </section>
-    <section id="skills">
+    <section class="section-skills section" id="skills">
       <h2>Skills</h2>
       <ul>
         <li>HTML5, CSS3</li>
@@ -63,28 +69,28 @@
         <li>Figma</li>
       </ul>
     </section>
-    <section id="code">
+    <section class="section-code section" id="code">
       <h2>Code examples</h2>
       <code>function multiply(a, b){a * b}</code>
     </section>
-    <section id="projects">
+    <section class="section-projects section" id="projects">
       <h2>Experience</h2>
       <p>not yet</p>
     </section>
-    <section id="education">
+    <section class="section-education section" id="education">
       <h2>Education</h2>
       <p><b>Astrakhan State University: </b>Bachelor of Economics</p>
     </section>
-    <section id="english">
+    <section class="section-english section" id="english">
       <h2>Languages</h2>
       <p><b>English: </b>A1 - A2</p>
     </section>
   </main>
-  <footer class="page-footer">
-<div>
-  <div> 2022 <a href="https://github.com/NadezhdaLukanova"><img src="assets\github-logo.png" width="45" height="45" alt=""></a></div>
-  <a href="https://rs.school/js/"><img src="assets\rs_school_js.svg" width="121" height="45" alt=""></a>
-</div>
+  <footer class="footer">
+  <div class="container">
+     <div> 2022 <a href="https://github.com/NadezhdaLukanova"><img src="assets/github-logo.png" width="45" height="45" alt=""></a></div>
+  <a href="https://rs.school/js/"><img src="assets/rs_school_js.svg" width="121" height="45" alt=""></a>
+   </div>
   </footer>
 </body>
 </html>
